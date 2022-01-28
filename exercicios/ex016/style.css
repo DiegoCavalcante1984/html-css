@@ -1,0 +1,36 @@
+/*@charset é uma regra css para caracteres com acento*/
+@charset "UTF-8";
+
+
+*{
+ 
+  font-family: "poppins", sans-serif
+  
+}
+body{
+  background-image: linear-gradient(to left,#F2B56B,#D98C5F)
+}
+main{
+
+  
+  background-color: rgb(236, 231, 229);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(163, 105, 71, 0.411);
+  width: 100vh;
+  margin: auto;
+  padding: 10px;
+  text-align: justify;
+}
+h1{
+  color: #D9325E;
+  text-align: center;
+  text-shadow:1px 1px 1px rgba(168, 39, 73, 0.63);
+
+}
+h2{
+  color: #213A40;
+
+}
+p{
+
+}
