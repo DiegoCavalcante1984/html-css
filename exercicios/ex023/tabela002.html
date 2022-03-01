@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table{
+      width:500px ;
+      border-collapse: collapse;
+    }
+    caption{
+      font-size: 20px;
+      font-weight: bold;
+      background-color: darkgray;
+      padding-bottom: 10px;
+    }
+    td,th{
+      border:1px solid black;
+    }
+    tbody > tr:nth-child(2n){
+      background-color: burlywood;
+    }
+    thead, tfoot{
+      background-color: rgb(120, 121, 182);
+    }
+    .num{
+      text-align: right;
+    }
+  </style>
+  
+  <title>Tabelas maiores</title>
+</head>
+<body>
+  <table>
+    <caption>Lista populacional federativa</caption>
+    <thead>
+      
+      <tr>
+        <th scope="col">Estado</th>
+        <th scope="col">População</th>
+      </tr>  
+    </thead>
+    <tbody>
+      <tr>
+        <td>São Paulo</td>
+        <td class="num">44.169.350</td>
+      </tr>
+      <tr>
+        <td>Minas Gerais</td>
+        <td  class="num">20.777.672</td>
+      </tr>
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td  class="num">16.497.395</td>
+      </tr>
+      <tr>
+        <td>Rio Grande do Sul</td>
+        <td  class="num">11.228.091</td>
+      </tr>
+      <tr>
+        <td>Paraná</td>
+        <td  class="num">11.112.062</td>
+      </tr>
+      <tr>
+        <td>Espírito Santo</td>
+        <td  class="num">3.894.899</td>
+      </tr>
+      <tr>
+        <td>Distrito Federal</td>
+        <td  class="num">2.879.543</td>
+      </tr>
+      <tr>
+        <td>Pará</td>
+        <td  class="num">8.987.554</td>
+      </tr>
+      <tr>
+        <td>Pernambuco</td>
+        <td  class="num">9.297.876</td>
+      </tr>
+     
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row">Total de Habitantes</th>
+        <td class="num">123.342.222</td>
+      </tr>
+        
+    </tfoot>
+</table>
+</body>
+</html>
